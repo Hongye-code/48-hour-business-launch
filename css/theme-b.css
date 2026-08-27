@@ -1,0 +1,30 @@
+:root {
+  --bg: #f7efe9;
+  --surface: #fffaf6;
+  --surface-2: #eee1da;
+  --text: #171313;
+  --muted: #74645f;
+  --line: #cfc0b9;
+  --accent: #d44c7d;
+  --accent-strong: #ae315e;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --shadow: 10px 12px 0 rgba(23, 19, 19, 0.09);
+  --display: "Songti SC", "Noto Serif SC", serif;
+}
+body[data-variant="b"] { background-color: var(--bg); }
+body[data-variant="b"] .site-header { background: var(--text); color: var(--bg); border-bottom-color: var(--text); }
+body[data-variant="b"] .site-header .text-button, body[data-variant="b"] .site-header .save-state { color: #d9cfc9; }
+body[data-variant="b"] .hero { position: relative; }
+body[data-variant="b"] .hero::before { content: "ISSUE 01"; position: absolute; right: 48px; top: 24px; color: rgba(23,19,19,.08); font: 900 clamp(70px, 13vw, 180px)/1 var(--mono); letter-spacing: -.08em; }
+body[data-variant="b"] .hero-art { background: #f0d9d8; border: 1px solid var(--text); box-shadow: 12px 12px 0 var(--text); }
+body[data-variant="b"] .hero-art img { object-fit: cover; object-position: center top; animation: editorial-reveal 600ms ease both; }
+body[data-variant="b"] .hero h1 { font-weight: 700; }
+body[data-variant="b"] .hero-proof span, body[data-variant="b"] .channel-chip { border-radius: 0; }
+body[data-variant="b"] .work-panel, body[data-variant="b"] .result-panel { border: 1px solid var(--text); }
+body[data-variant="b"] .panel-header { border-bottom: 5px solid var(--text); }
+body[data-variant="b"] .step-link.is-active { color: var(--bg); background: var(--text); border-left-color: var(--accent); }
+body[data-variant="b"] .model-card.is-selected, body[data-variant="b"] .segment.is-selected, body[data-variant="b"] .channel-chip.is-selected { color: var(--text); background: #f0b5c7; border-color: var(--text); }
+body[data-variant="b"] .result-item { border: 0; }
+@keyframes editorial-reveal { from { opacity: 0; clip-path: inset(0 0 100% 0); } to { opacity: 1; clip-path: inset(0); } }
+@media (max-width: 560px) { body[data-variant="b"] .hero-art img { object-fit: contain; } }

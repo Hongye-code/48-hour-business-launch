@@ -1,0 +1,45 @@
+{
+  "type": "design",
+  "designSystems": [],
+  "primaryDesignSystem": null,
+  "assets": {
+    "三版本总览": {
+      "versions": [
+        {
+          "path": "index.html",
+          "createdAt": "2026-08-24T15:11:01.329Z",
+          "status": "needs-review"
+        }
+      ]
+    },
+    "48小时开启个人事业 B": {
+      "versions": [
+        {
+          "path": "version-b.html",
+          "createdAt": "2026-08-24T15:11:01.390Z",
+          "status": "needs-review"
+        }
+      ]
+    },
+    "48小时开启个人事业 C": {
+      "versions": [
+        {
+          "path": "version-c.html",
+          "createdAt": "2026-08-24T15:11:01.417Z",
+          "status": "needs-review"
+        }
+      ]
+    },
+    "两天开启个人事业（正式版）": {
+      "versions": [
+        {
+          "path": "version-a.html",
+          "createdAt": "2026-08-25T04:09:05.973Z",
+          "status": "approved"
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-08-24T15:11:01.332Z",
+  "updatedAt": "2026-08-25T04:09:19.803Z"
+}
